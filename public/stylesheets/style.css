@@ -29,10 +29,10 @@ table {
 }
 
 .container {
-  height: 538px;
+  height: 650px;
   position: absolute;
-  margin: 0 0 0 -265px;
-  width: 530px;
+  margin: -100px 0 0 -320px;
+  width: 640px;
   left: 50%;
   top: 20%;
 }
@@ -92,10 +92,10 @@ table {
   border: 2px solid transparent;
   border-radius: 50%;
   display: inline-block;
-  height: 4em;
+  height: 5.2em;
   line-height: 4em;
   text-align: center;
-  width: 4em;
+  width: 5.2em;
 }
 
 .calendar .prev-month,
