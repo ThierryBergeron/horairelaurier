@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calendar</title>
+  <script src="javascripts/calendar.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="control">
+      <button onclick="Calendar.changeLetter(8)">A</button>
+      <button onclick="Calendar.changeLetter(9)">B</button>
+      <button onclick="Calendar.changeLetter(1)">C</button>
+      <button onclick="Calendar.changeLetter(2)">D</button>
+      <button onclick="Calendar.changeLetter(3)">E</button>
+      <button onclick="Calendar.changeLetter(4)">F</button>
+      <button onclick="Calendar.changeLetter(5)">G</button>
+      <button onclick="Calendar.changeLetter(6)">H</button>
+      <button onclick="Calendar.changeLetter(7)">I</button>
+    </div>
+    <div class="calendar">
+      <header>
+        <h2 id="month-title"></h2>
+        <a class="btn-prev fontawesome-angle-left" onclick="Calendar.prevMonth()" href="#"></a>
+        <a class="btn-next fontawesome-angle-right" onclick="Calendar.nextMonth()" href="#"></a>
+      </header>
+      <table id="table">
+      </table>
+    </div>
+  </div>
+  
+  <script>
+    Calendar.init();
+    displayCal.call(Calendar);
+  </script>
+</body>
+</html>
