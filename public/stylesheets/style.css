@@ -29,12 +29,10 @@ table {
 }
 
 .container {
-  height: 538px;
-  left: 50%;
-  margin: -255px 0 0 -245px;
+  height: 84vh;
   position: absolute;
-  top: 50%;
-  width: 510px;
+  width: 84vw;
+  left: 8%;
 }
 
 /* ---Class Control--- */
@@ -69,6 +67,7 @@ table {
 
 .calendar header {
   position: relative;
+
 }
 
 .calendar h2 {
@@ -92,10 +91,10 @@ table {
   border: 2px solid transparent;
   border-radius: 50%;
   display: inline-block;
-  height: 4em;
+  height: 11.1vw;
   line-height: 4em;
   text-align: center;
-  width: 4em;
+  width: 11.1vw;
 }
 
 .calendar .prev-month,
