@@ -29,10 +29,12 @@ table {
 }
 
 .container {
-  height: 84vh;
+  height: 538px;
   position: absolute;
-  width: 84vw;
-  left: 8%;
+  margin: 0 0 0 -265px;
+  width: 530px;
+  left: 50%;
+  top: 20%;
 }
 
 /* ---Class Control--- */
@@ -67,7 +69,6 @@ table {
 
 .calendar header {
   position: relative;
-
 }
 
 .calendar h2 {
@@ -91,10 +92,10 @@ table {
   border: 2px solid transparent;
   border-radius: 50%;
   display: inline-block;
-  height: 11.1vw;
+  height: 4em;
   line-height: 4em;
   text-align: center;
-  width: 11.1vw;
+  width: 4em;
 }
 
 .calendar .prev-month,
@@ -178,4 +179,24 @@ table {
 
 .btn-next {
   right: 6em;
+}
+
+@media screen and (max-width: 800px){
+  .container {
+  height: 84vh;
+  position: absolute;
+  margin: 0;
+  width: 84vw;
+  left: 8%;
+  top: 10%;
+  }
+  .calendar td {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 11.1vw;
+  line-height: 4em;
+  text-align: center;
+  width: 11.1vw;
+  }
 }
