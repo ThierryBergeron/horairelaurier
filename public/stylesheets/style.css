@@ -109,9 +109,8 @@ table {
   border: 2px solid #00addf;
 }
 
-.current-day {
-  background: #00addf;
-  color: #f9f9f9;
+.current-day:after {
+  text-decoration: underline;
 }
 
 .night {
@@ -148,10 +147,6 @@ table {
   margin: -.4em 0 0 -.4em;
   position: absolute;
   width: .8em;
-}
-
-.night.current-day:after {
-  background: #f9f9f9;
 }
 
 .btn-prev,

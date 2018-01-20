@@ -104,7 +104,7 @@ var Calendar = {
       self.month++;
     }
     self.createCal();
-    displayCal.call(self);
+    displayCal.call(self, self.letter);
   },
   prevMonth: function(){
     var self = this;
@@ -115,11 +115,12 @@ var Calendar = {
       self.month += -1;
     }
     self.createCal();
-    displayCal.call(self);
+    displayCal.call(self, self.letter);
   },
   changeLetter: function(arg){
     var self = this;
-    displayCal.call(self, arg);
+    self.letter = arg;
+    displayCal.call(self, self.letter);
   }
 }
 
